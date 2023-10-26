@@ -6,7 +6,7 @@ import { Card, Col, Container, Row } from 'react-bootstrap';
 const LesenCard = ({data}) => {
   console.log(data);
   return (
-    <Container className="m-4 bg-dark p-2">
+    <Container className=" d- flex m-4 mx-auto bg-dark p-2">
       <Row className="g-4 d-flex justify-content-center">
      
         {data.map(({image,hour,name,id}) => {
