@@ -12,7 +12,7 @@ import resim from "../img/esrayalcin.png"
 function MyNavbar() {
   return (
     <>
-      <Navbar bg="dark" data-bs-theme="dark">
+      <Navbar className="mt-4" bg="dark" data-bs-theme="dark">
         <Container>
           <img className="me-auto" src={resim} alt="" width="150px" />
           <h1 className="me-auto" style={{color:"#B69A59"}}>Lesson Reminder</h1>
